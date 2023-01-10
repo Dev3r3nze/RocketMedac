@@ -1,0 +1,103 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: rgb(12,34,78);
+    background: no-repeat linear-gradient(180deg, rgba(12,34,78,1) 0%, rgba(9,9,121,1) 35%, rgba(71,127,244,1) 100%);
+    align-items: center;
+    flex-direction: column;
+}
+#header{
+    width: 100%;
+    height: 5vh;
+    background: #242038;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#headerBtns{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+#headerBtns p{
+    color: white;
+    font-size: 20px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    background: #242038;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#footerBtns{
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footerBtns p{
+    color: white;
+    font-size: 20px;
+}
+
+#content{
+    height: 85vh;
+    display: flex;
+    width: 80%;
+}
+.colPieza{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.colFlecha{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.colFlecha img{
+    width: 100%;
+}
+.flechaInvert{
+    transform: scaleX(-1);
+}
+
+.colRocket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colRocket img{
+    width: 90%;
+    height: 80%;
+}
+
+.pieza{
+    height: 40%;
+    text-align: center;
+}
+.pieza img{
+    width: 90%;
+}
+.pieza p{
+    color: white;
+    font-size: 20px;
+}
+
+img{
+    width: 20px;
+}
