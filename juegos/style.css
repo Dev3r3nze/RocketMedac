@@ -1,0 +1,47 @@
+#menuLateralOpened,#menuLateralClosed{
+    height: 87%;
+    position: fixed;
+    background-color: #477ff4;
+    width: 30%;
+    display: none;
+    text-align: center;
+    left: 0px;
+    z-index: -1;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+#menuLateralClosed{
+    width: 5%;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#menuLateralOpened{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#menuLateralClosed img{
+    width: 30px;
+    height: 30px;
+    translate: -2vh -80vh;
+}
+
+.juego{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 6vh;
+}
+.juego img{
+    width: 45%;
+}
+.colJuego{
+    height: 97%;
+}
+.juegoTitle{
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
