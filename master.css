@@ -1,6 +1,7 @@
 *{
     border: 0px;
     margin: 0px;
+    user-select: none;
 }
 body{
     display: flex;
@@ -17,6 +18,10 @@ a{
 a:hover{
     transform: scale(1.1);
 }
+p{
+    user-select:text
+}
+
 
 #header{
     width: 100%;

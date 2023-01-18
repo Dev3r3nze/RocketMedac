@@ -10,11 +10,11 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
 }
 .colContent{
-    height: 80%;
+    height: 90%;
     text-align: center;
 }
 
@@ -47,4 +47,7 @@
 
 p {
     color: white;
+}
+.piezaDesc{
+    width: 80%;
 }
