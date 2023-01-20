@@ -7,47 +7,74 @@ body{
     display: flex;
     height: 100vh;
     width: 100%;
-    background: rgb(12,34,78);
-    background: no-repeat linear-gradient(180deg, rgba(12,34,78,1) 0%, rgba(9,9,121,1) 35%, rgba(71,127,244,1) 100%);
+    /*background: no-repeat linear-gradient(180deg, rgba(12,34,78,1) 0%, rgba(9,9,121,1) 35%, rgba(71,127,244,1) 100%);*/
     align-items: center;
     flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
 }
 a{
     text-decoration: none;
 }
-a:hover{
-    transform: scale(1.1);
-}
+
 p{
-    user-select:text
+    user-select:text;
+    font-family: 'Marhey', cursive;
+}
+
+@keyframes cohete {
+    from {
+        transform: translate(0,25vh);
+    }
+    to {
+        transform: translate(0,0vh);
+
+    }
+}
+@keyframes piezas {
+    from {
+        transform: translate(0,25vh);
+    }
+    to {
+        transform: translate(0,0vh);
+        opacity: 1;
+
+    }
 }
 
 
 #header{
     width: 100%;
-    height: 5vh;
-    background: #242038;
+    height: 6vh;
+    background: #2e2559;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 #headerBtns{
     display: flex;
-    width: 20%;
+    width: 30%;
     justify-content: space-evenly;
+}
+#headerBtns a{
+    width: 100%;
+    text-align:center;
+}
+#headerBtns a:hover{
+    background: #161322;
 }
 
 #headerBtns p{
     color: white;
-    font-size: 20px;
+    font-size: 1.7vw;
+    font-weight: 600;
 }
 
 #footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 8vh;
-    background: #242038;
+    height: 11vh;
+    background: #2e2559;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -58,16 +85,27 @@ p{
     flex-direction: column;
     align-items: center;
 }
+#footerBtns a{
+    width: 100%;
+    text-align: center;
+}
+#footerBtns a:hover{
+    background: #161322;
+
+}
 
 #footerBtns p{
     color: white;
-    font-size: 16px;
+    font-size: 1vw;
+    font-weight: 600;
+
 }
 
 #content{
-    height: 85vh;
+    height: 83vh;
     display: flex;
     width: 80%;
+    
 }
 .colPieza{
     width: 20%;
@@ -76,10 +114,13 @@ p{
     justify-content: space-around;
 }
 .colFlecha{
+    opacity: 1;
     width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    animation-name: piezas;
+    animation-duration: 4s;
 }
 .colFlecha img{
     width: 100%;
@@ -93,22 +134,28 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-name: cohete;
+    animation-duration: 2s;
 }
 .colRocket img{
     width: 90%;
-    height: 80%;
+    height: 90%;
 }
 
 .pieza{
+    opacity: 1;
     height: 40%;
     text-align: center;
+    animation-name: piezas;
+    animation-duration: 4s;
+
 }
 .pieza img{
-    width: 90%;
+    width: 80%;
 }
 .pieza p{
     color: white;
-    font-size: 20px;
+    font-size: 0.9vw;
 }
 
 img{

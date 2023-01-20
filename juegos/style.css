@@ -1,5 +1,5 @@
 #menuLateralOpened,#menuLateralClosed{
-    height: 87%;
+    height: 83%;
     position: fixed;
     background-color: #477ff4;
     width: 30%;
@@ -7,7 +7,7 @@
     text-align: center;
     left: 0px;
     z-index: 1;
-    margin-top: 5vh;
+    margin-top: 6vh;
     margin-bottom: 8vh;
 }
 #menuLateralClosed{
@@ -25,10 +25,11 @@
 #menuLateralClosed img{
     width: 30px;
     height: 30px;
-    translate: -3.5vh -80vh;
+    translate: -3.5vh -77vh;
 }
 #menuLateralClosed img:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .juego{
@@ -51,7 +52,7 @@
     width: 50%;
 }
 .juegoTitle{
-    font-size: 20px;
+    font-size: 2vw;
     margin-bottom: 2vh;
 }
 #content{
@@ -63,10 +64,13 @@
     margin-top: 2vh;
 }
 #titleJuegoBig{
-    font-size: 50px;
+    font-size: 5vw;
     color: white;
-    margin-bottom: 2vh;
+    margin-bottom: 2vh;   
+    font-weight: 600;
+
 }
+
 #imgJuegoBig{
     width: 90%;
 }
@@ -86,6 +90,7 @@
 }
 #descJuegoBig{
     color: white;
+    font-size: 1vw;
 }
 #rating{
     margin-top: 2vh;
