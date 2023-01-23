@@ -24,7 +24,7 @@ function Juego(num){
         case 1:
             title.innerHTML = "<p>Space Reach</p>"
             image.src = "CapturaReach.png"
-            image.style.width = "40%"
+            image.style.width = "30%"
             enlace.href = "https://dev3r3nze.itch.io/space-reach"
             rating.childNodes[7].style.display = "none"
             rating.childNodes[9].style.display = "none"

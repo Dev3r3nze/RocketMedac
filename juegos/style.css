@@ -37,13 +37,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-left: 6vh;
+    padding-left: 3vh;
 }
 .juego:hover{
     background-color: #4072df;
 }
 .juego img{
-    width: 70%;
+    width: 50%;
 }
 .juego img:hover, .juego p:hover{
     cursor: pointer;
@@ -52,8 +52,8 @@
     width: 50%;
 }
 .juegoTitle{
-    font-size: 2vw;
-    margin-bottom: 2vh;
+    font-size: 1.7vw;
+    margin-bottom: 0vh;
 }
 #content{
     width: 75%;
@@ -64,7 +64,7 @@
     margin-top: 2vh;
 }
 #titleJuegoBig{
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
     margin-bottom: 2vh;   
     font-weight: 600;
