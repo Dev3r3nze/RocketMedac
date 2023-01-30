@@ -23,7 +23,7 @@ function Juego(num){
     switch(num){
         case 1:
             title.innerHTML = "<p>Space Reach</p>"
-            image.src = "CapturaReach.png"
+            image.src = "CapturaReach.PNG"
             image.style.width = "30%"
             enlace.href = "https://dev3r3nze.itch.io/space-reach"
             rating.childNodes[7].style.display = "none"
@@ -32,7 +32,7 @@ function Juego(num){
             break;
         case 2:
             title.innerHTML = "<p>Space Explorer</p>"
-            image.src = "CapturaExplorador.png"
+            image.src = "CapturaExplorador.PNG"
             image.style.width = "70%"
             enlace.href = "https://dev3r3nze.itch.io/spacetraveler"
             rating.childNodes[7].style.display = "initial"
@@ -41,7 +41,7 @@ function Juego(num){
             break;
         case 3:
             title.innerHTML = "<p>Moonthrower</p>"
-            image.src = "CapturaLuna.png"
+            image.src = "CapturaLuna.PNG"
             image.style.width = "90%"
             enlace.href = "https://dev3r3nze.itch.io/moon-thrower"
             rating.childNodes[7].style.display = "initial"
